@@ -9,20 +9,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="main">
     <ul>
-        <li><a href="index.html"> Главная</a></li>
-        <li><a href="info/about.html"> Обо мне</a></li>
         <li>
-            <a href="application.html"> Оставить заявку</a>
+            <a href="index.html">
+                <p class="menu">Главная</p>
+            </a>
+        </li>
+        <li>
+            <a href="info/about.html">
+                <p class="menu">Обо мне</p>
+            </a>
+        </li>
+        <li>
+            <a href="application.html">
+                <p class="menu">Оставить заявку</p>
+            </a>
         </li>
 
     </ul>
     <form action="#">
-        <h1>Оставить заявку</h1>
-        Ваше имя <input type="text" placeholder="Введите ваше имя"><br> Пароль <input type="password" placeholder="Введите ваш пароль"><br> Почта <input type="email" placeholder="Введите вашу почту"><br> Дата рождения <input type="date"><br>
-        <button type="submit">Отправить</button>
-        <button type="reset">Стереть</button>
+        <h1 class="head">Оставить заявку</h1>
+        Ваше имя
+        <input type="text" placeholder="Введите ваше имя" class="fild" autofocus required pattern="\S+[A-яа-а]"><br> Пароль <input type="password" placeholder="Введите ваш пароль" class="fild"><br> Почта <input type="email" placeholder="Введите вашу почту"
+            class="fild"><br> Дата рождения
+        <input type="date" class="fild"><br>
+        <button class="but" type="submit">Отправить</button>
+        <button class="but" type="reset">Стереть</button>
     </form>
 </body>
 

@@ -8,7 +8,30 @@ html {
     /* px значит 'пиксели': базовый шрифт будет 10 пикселей в
 высоту */
     font-family: 'Roboto', sans-serif;
-    background-color: #aad2ef;
+    background-color: #c8efaa;
+}
+
+.main {
+    font-family: sans-serif;
+}
+
+.head {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.head2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .fa-brands,
@@ -19,11 +42,51 @@ html {
     color: chartreuse
 }
 
+.imag1 {
+    border-radius: 30px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.decs {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
 
 /* .fa-vk {
     color: blue;
     background-color: brown;
 } */
+
+.menu {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.fild {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.but {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
 
 .fa-whatsapp {
     color: yellow;
